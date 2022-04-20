@@ -8,6 +8,7 @@ floresta = loadImage("bg.png");
 Lolos2 = loadImage("lolo<3.png");
 
 }
+// teste
 
 function setup(){ // todas as configuraçoes dos objetos
   createCanvas(1669,912);
