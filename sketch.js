@@ -51,6 +51,20 @@ function draw(){
   text (mouseX+","+mouseY,mouseX,mouseY);
   andei();
   LoloS2.collide (fl)
+
+  if(LoloS2.x<1000&&LoloS2.y<165&&LoloS2.x>581){
+LilyAxolotl.x = 602;
+LilyAxolotl.y = 78;
+
+  } else if(LoloS2.x<580&&LoloS2.y>411){
+LilyAxolotl.x = 510;
+LilyAxolotl.y = 576;
+
+  }
+  else{
+    LilyAxolotl.x = 1293;
+    LilyAxolotl.y = 313; 
+  }
 }
 
 function andei(){
